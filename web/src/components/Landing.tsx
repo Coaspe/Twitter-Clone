@@ -1,4 +1,3 @@
-import React from "react"
 import { Link } from "react-router-dom"
 import TwitterLogo from "../styles/assets/Twitter-Logo.png"
 import "../styles/landing.css"
@@ -29,7 +28,6 @@ function Landing() {
             </div>
           </div>
         </div>
-
         <div className="center">
           <img src={TwitterLogo} alt="logo" style={{ width: "50px" }} />
           <h1>
@@ -50,4 +48,4 @@ function Landing() {
   )
 }
 
-export default Landing;
+export default Landing

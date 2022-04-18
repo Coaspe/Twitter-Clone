@@ -70,7 +70,7 @@ const UpdateProfile = () => {
         data.append('file', files[0])
         data.append("upload_preset", "Coaspe")
         setImageLoading(true)
-        const res = await fetch("h", {
+        const res = await fetch("https://api.cloudinary.com/v1_1/dvmln0mla/image/upload", {
             method: "POST",
             body: data
         })
